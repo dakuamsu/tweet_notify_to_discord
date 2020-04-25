@@ -1,0 +1,2 @@
+# tweet_notify_to_discord
+任意のユーザーのツイートの通知をwebhookを用いてdiscordに流します。

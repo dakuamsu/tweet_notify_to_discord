@@ -23,7 +23,7 @@ def tweet(auth):
         dif = now -when
         print("{}\n{}\n{}\n".format(dif.seconds, i.text,when))
         if(dif.seconds < 60):
-            msg = tweet.text + "\nhttps://twitter.com/{}/status/{}".format(screen,tweet.id)
+            msg = tweet.text + "\nhttps://twitter.com/{}/status/{}".format(screen,str(i.id))
             notify(msg)
 
 def notify(msg):
